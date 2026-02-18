@@ -10,7 +10,7 @@ def main():
     dataset      = "forecast"
     table        = "weather_data"
     temp_bucket  = "bq-temp-gds3"
-    bucket       = "weather-data-gds1"
+    bucket       = "weather-data-gds2"
     today        = datetime.date.today().strftime("%Y-%m-%d")
     input_path   = f"gs://{bucket}/weather/{today}/forecast.csv"
 
